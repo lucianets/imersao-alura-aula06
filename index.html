@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
+    <title> Imersão Dev Alura - Aula 06</title>
+</head>
+    <body>
+        <h1> Tabela de Classificação</h1>
+            <img height="200px" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/21000726-6e13-4201-b1aa-dca7cfbbf935/Title_Page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210921%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210921T200123Z&X-Amz-Expires=86400&X-Amz-Signature=06febc13f212d23c4a13a6f2a7923af7682c3a8054d0440321932b4543f1b1f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Title%2520Page.png%22" alt="" class="vj-logo">
+        </a>
+      
+      <div class="container">
+
+        <table style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Vitórias</th>
+                        <th>Empates</th>
+                        <th>Derrotas</th>
+                        <th>Pontos</th>
+                        <th colspan="4">Ações</th>
+                    </tr>
+            </thead>
+            <tbody id="tabelaJogadores"> </tbody>
+        </table>
+        <div>
+          <input type="text" id="jogador" name="novo-jogador" placeholder="Insira nome do jogador">
+          <button id="btn" onclick="adicionarJogador()">Adicionar Jogador</button>
+        </div>
+        <div class="new-game">
+          <button id="novo-jogo" onclick="resetarJogo()">Iniciar Nova Partida</button>
+        </div>
+      </div>
+      
+      <img height="50px" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/21000726-6e13-4201-b1aa-dca7cfbbf935/Title_Page.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210921%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210921T200123Z&X-Amz-Expires=86400&X-Amz-Signature=06febc13f212d23c4a13a6f2a7923af7682c3a8054d0440321932b4543f1b1f5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Title%2520Page.png%22" class=fix>
+    
+    </body>
+</html>
